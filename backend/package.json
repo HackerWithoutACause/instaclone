@@ -1,0 +1,26 @@
+{
+  "name": "instaclone-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon index.mjs"
+  },
+  "author": "Chase Hadley <me@chadley.me>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.4.1",
+    "mongoose-fuzzy-searching": "^2.0.2",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
