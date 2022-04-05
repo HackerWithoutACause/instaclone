@@ -231,6 +231,16 @@ legend
     visibility: visible
     opacity: 1
 
+[data-tooltip]:hover::after
+  content: " "
+  position: absolute
+  top: -10px
+  left: 50%
+  margin-left: -5px
+  border-width: 5px
+  border-style: solid
+  border-color: var(--border-color) transparent transparent transparent
+
 @keyframes spin
   0%
     transform: rotate(0deg)

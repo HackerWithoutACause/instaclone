@@ -8,7 +8,7 @@ import 'express-async-errors';
 import multer from 'multer';
 import bcrypt from 'bcrypt';
 
-const dbo = await MongoClient.connect('mongodb://127.0.0.1:27017')
+const dbo = await MongoClient.connect(process.env.MONGODB_URL)
     .catch(err => console.error('Failed to make MongoDB connection', err))
     .then(db => db.db('instaclone'));
 
